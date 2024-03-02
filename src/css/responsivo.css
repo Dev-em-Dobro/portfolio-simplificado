@@ -1,0 +1,87 @@
+@media(max-width: 1280px) {
+
+  .home .texto-home {
+    max-width: 100%;
+    text-align: center;
+    padding: 0 var(--mobile-padding);
+  }
+
+  .home .img-home {
+    display: none;
+  }
+
+  .home .redes-sociais {
+    justify-content: center;
+  }
+
+  .projetos .container-projetos {
+    padding: 0 var(--mobile-padding);
+  }
+
+  .header {
+    padding: var(--mobile-padding);
+  }
+}
+
+@media (max-width: 900px) {
+  .header .menu {
+    display: block;
+  }
+
+  /* pega todos os itens que após o input e que sao irmaos dele */
+  .header nav input:checked~ul {
+    display: block;
+  }
+
+  .header nav {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    z-index: 1;
+  }
+
+  .header nav ul {
+    display: none;
+    background-color: var(--cor-fundo-roxo-claro);
+    padding: 20px;
+    transition: all .3s ease;
+  }
+
+  .header nav li a {
+    color: var(--cor-branca);
+    text-align: center;
+    padding: 0;
+    display: block;
+  }
+}
+
+@media(max-width: 425px) {
+  .section {
+    padding: 0;
+  }
+
+  .home .texto-home {
+    gap: 30px;
+  }
+
+  .home .texto-home h1 {
+    font-size: var(--fonte-extra-grande);
+  }
+
+  .home .texto-home p {
+    font-size: var(--fonte-pequena);
+  }
+
+  .projetos .container-projetos {
+    place-items: center;
+  }
+
+  .projetos .container-projetos .projeto {
+    width: 300px;
+  }
+
+  .projetos .section-title {
+    font-size: var(--fonte-extra-grande);
+  }
+
+}
