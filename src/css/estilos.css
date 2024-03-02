@@ -88,6 +88,10 @@ body {
   max-width: 50%;
 }
 
+.home .texto-home .img-mobile{
+  display: none;
+}
+
 .home .redes-sociais {
   display: flex;
   align-items: center;
@@ -147,7 +151,7 @@ body {
 
 .home .img-home .img-box img {
   width: 100%;
-  border-radius: 50%;
+  border-radius: 10px;
 }
 
 .home .texto-home h1 {
