@@ -77,6 +77,13 @@
     font-size: var(--fonte-normal);
   }
 
+  .home .redes-sociais a i {
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    padding: 0.9rem;
+  }
+
   .projetos .container-projetos {
     place-items: center;
   }
