@@ -4,9 +4,14 @@
     max-width: 100%;
     text-align: center;
     padding: 0 var(--mobile-padding);
+    align-items: center;
   }
 
-  .home .img-home {
+  .home .img-home .img-mobile {
+    display: block;
+  }
+
+  .home .img-home-desktop {
     display: none;
   }
 
@@ -65,11 +70,11 @@
   }
 
   .home .texto-home h1 {
-    font-size: var(--fonte-extra-grande);
+    font-size: var(--fonte-grande);
   }
 
   .home .texto-home p {
-    font-size: var(--fonte-pequena);
+    font-size: var(--fonte-normal);
   }
 
   .projetos .container-projetos {

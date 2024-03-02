@@ -137,17 +137,21 @@ body {
   }
 }
 
-
-
-.home .img-home .img-box {
+.home .img-home .img-box,
+.home .img-home-desktop .img-box {
   max-width: 450px;
   margin: auto;
   border-radius: 50%;
 }
 
-.home .img-home .img-box img {
+.home .img-home .img-box img,
+.home .img-home-desktop img {
   width: 100%;
   border-radius: 50%;
+}
+
+.home .texto-home .img-mobile {
+  display: none;
 }
 
 .home .texto-home h1 {
