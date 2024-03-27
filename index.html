@@ -17,18 +17,18 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="cabecalho">
     <a href="#">
       <h1 class="logo">RD</h1>
     </a>
     <nav>
-      <input id="menu-hamburguer" type="checkbox" />
+      <!-- <input id="menu-hamburguer" type="checkbox" /> -->
 
-      <label for="menu-hamburguer">
+      <!-- <label for="menu-hamburguer">
         <div class="menu">
           <span class="hamburguer"></span>
         </div>
-      </label>
+      </label> -->
       <ul>
         <li><a href="#projetos">Meus projetos</a></li>
       </ul>
@@ -36,63 +36,58 @@
   </header>
 
   <section class="home">
-    <div class="texto-home">
+    <div class="informacoes">
       <h1>Olá! Sou Ricardo Dias</h1>
       <p>Um desenvolvedor frontend em formação apaixonado por tecnologia.</p>
       <p>Estou sempre me desafiando com novos projetos e buscando feedback na comunidade de programação, além de
         compartilhar meus conhecimentos. 😁</p>
       <p>Ah, também sou fã de jogos, filmes, séries e animes. 💜</p>
 
-      <div class="img-home">
-        <div class="img-box inner-shadow">
-          <img class="img-mobile" src="./src/imagens/foto-perfil.png" alt="foto do perfil do Ricardo" />
+      <div class="container-foto-mobile">
+        <div class="foto sombra-interna">
+          <img class="img-mobile" src="./src/imagens/foto-perfil.png" alt="foto do portfólio do Ricardo" />
         </div>
       </div>
 
       <ul class="redes-sociais">
         <li>
-          <a href="#" title="Ir para o LinkedIn">
+          <a href="https://www.linkedin.com/in/nomedousuario/" title="Ir para o LinkedIn">
             <i class="fab fa-linkedin-in"></i>
           </a>
         </li>
 
         <li>
-          <a href="#" title="Enviar mensagem no WhatsApp">
+          <a href="https://wa.me/551199999999" title="Enviar mensagem no WhatsApp">
             <i class="fab fa-whatsapp"></i>
           </a>
         </li>
         <li>
-          <a href="#" title="Ir para o GitHub">
+          <a href="https://github.com/nomedousuario" title="Ir para o GitHub">
             <i class="fab fa-github"></i>
           </a>
         </li>
         <li>
-          <a href="#" title="Ir para o instagram">
+          <a href="https://www.instagram.com/nomedousuario" title="Ir para o instagram">
             <i class="fab fa-instagram"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#" title="Baixar currículo">
-            <i class="far fa-newspaper"></i>
           </a>
         </li>
       </ul>
     </div>
 
-    <div class="img-home-desktop">
-      <div class="img-box inner-shadow">
-        <img class="img-desktop" src="./src/imagens/foto-perfil.png" alt="foto do perfil do Ricardo" />
+    <div class="container-foto-desktop">
+      <div class="foto sombra-interna">
+        <img class="img-desktop" src="./src/imagens/foto-perfil.png" alt="foto do portfólio do Ricardo" />
       </div>
     </div>
   </section>
 
-  <section class="projetos section" id="projetos">
+  <section class="projetos" id="projetos">
 
-    <h2 class="section-title">Meus projetos</h2>
+    <h2 class="titulo">Meus projetos</h2>
 
     <div class="container-projetos">
       <div class="projeto">
-        <a href="https://github.com/devemdobro/projeto-gta">
+        <a href="https://github.com/devemdobro/projeto-gta" target="_blank">
           <img src="./src/imagens/projeto-gta.png" alt="Projeto Landing Page GTA" />
           <h3>Projeto 1</h3>
           <div class="informacoes-projeto">
@@ -103,7 +98,7 @@
       </div>
 
       <div class="projeto">
-        <a href="https://github.com/devemdobro/projeto-listagem-pokemon">
+        <a href="https://github.com/devemdobro/projeto-listagem-pokemon" target="_blank">
           <img src="./src/imagens/projeto-listagem-pokemon.png" alt="Projeto listagem de pokemons" />
           <h3>Projeto 2</h3>
           <div class="informacoes-projeto">
@@ -114,7 +109,7 @@
       </div>
 
       <div class="projeto">
-        <a href="https://github.com/devemdobro/projeto-one-piece-final">
+        <a href="https://github.com/devemdobro/projeto-one-piece-final" target="_blank">
           <img src="./src/imagens/projeto-one-piece.png" alt="Projeto landing page One Piece" />
           <h3>Projeto 3</h3>
           <div class="informacoes-projeto">
@@ -125,7 +120,7 @@
       </div>
 
       <div class="projeto">
-        <a href="https://github.com/devemdobro/x-men-szpc">
+        <a href="https://github.com/devemdobro/x-men-szpc" target="_blank">
           <img src="./src/imagens/projeto-x-men.png" alt="Projeto seletor de personagens x-men" />
           <h3>Projeto 4</h3>
           <div class="informacoes-projeto">
@@ -135,7 +130,7 @@
         </a>
       </div>
       <div class="projeto">
-        <a href="#">
+        <a href="#" target="_blank">
           <img src="https://via.placeholder.com/515X700" alt="Projeto landing page Mario" />
           <h3>Projeto 5</h3>
           <div class="informacoes-projeto">
@@ -145,7 +140,7 @@
         </a>
       </div>
       <div class="projeto">
-        <a href="#">
+        <a href="#" target="_blank">
           <img src="https://via.placeholder.com/515X700" alt="Capa do projeto" />
           <h3>Projeto 6</h3>
           <div class="informacoes-projeto">
@@ -155,7 +150,7 @@
         </a>
       </div>
       <div class="projeto">
-        <a href="#">
+        <a href="#" target="_blank">
           <img src="https://via.placeholder.com/515X700" alt="Capa do projeto" />
           <h3>Projeto 7</h3>
           <div class="informacoes-projeto">
@@ -165,7 +160,7 @@
         </a>
       </div>
       <div class="projeto">
-        <a href="#">
+        <a href="#" target="_blank">
           <img src="https://via.placeholder.com/515X700" alt="Capa do projeto" />
           <h3>Projeto 8</h3>
           <div class="informacoes-projeto">

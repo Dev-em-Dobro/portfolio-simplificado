@@ -18,18 +18,14 @@ body {
   margin: 0 auto;
 }
 
-.section {
-  padding: 7rem 0 7rem;
-}
-
-.header {
+.cabecalho {
   padding: 30px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header .logo {
+.cabecalho .logo {
   font-family: var(--fonte-secundaria);
   font-size: var(--fonte-extra-grande);
   color: var(--cor-branca);
@@ -43,16 +39,16 @@ body {
   transition: 0.2s;
 }
 
-.header a:hover .logo {
+.cabecalho a:hover .logo {
   color: var(--cor-fundo-roxo-claro);
   border: 2px solid var(--cor-fundo-roxo-claro);
 }
 
-.header nav ul {
+.cabecalho nav ul {
   display: flex;
 }
 
-.header nav li a {
+.cabecalho nav li a {
   text-transform: capitalize;
   color: var(--cor-branca);
   font-size: 2rem;
@@ -64,7 +60,7 @@ body {
   user-select: none;
 }
 
-.header nav ul li a:hover {
+.cabecalho nav ul li a:hover {
   background: var(--cor-fundo-roxo-claro);
   color: var(--cor-branca);
 }
@@ -79,7 +75,7 @@ body {
   min-height: calc(100vh - 125px);
 }
 
-.home .texto-home {
+.home .informacoes {
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -112,11 +108,11 @@ body {
   transform: scale(1.1);
 }
 
-.home .img-home {
+.home .container-foto-mobile {
   max-width: 50%;
 }
 
-.home .img-box.inner-shadow {
+.home .foto.sombra-interna {
   background: var(--cor-fundo-imagem);
   background-size: 180% 180%;
   animation: gradient-animation 5s ease infinite;
@@ -137,38 +133,38 @@ body {
   }
 }
 
-.home .img-home .img-box,
-.home .img-home-desktop .img-box {
+.home .container-foto-mobile .foto,
+.home .container-foto-desktop .foto {
   max-width: 450px;
   margin: auto;
   border-radius: 50%;
 }
 
-.home .img-home .img-box img,
-.home .img-home-desktop img {
+.home .container-foto-mobile .foto img,
+.home .container-foto-desktop img {
   width: 100%;
   border-radius: 50%;
 }
 
-.home .texto-home .img-mobile {
+.home .informacoes .img-mobile {
   display: none;
 }
 
-.home .texto-home h1 {
+.home .informacoes h1 {
   font-family: var(--fonte-secundaria);
   font-size: var(--fonte-gigante);
   font-weight: 700;
   margin-bottom: 20px;
 }
 
-.home .texto-home p {
+.home .informacoes p {
   font-family: var(--fonte-secundaria);
   font-size: var(--fonte-grande);
   margin-bottom: 10px;
 }
 
 
-.home .texto-home h2 {
+.home .informacoes h2 {
   font-family: var(--fonte-secundaria);
   font-size: var(--fonte-grande);
   letter-spacing: 2px;
@@ -179,9 +175,10 @@ body {
 
 .projetos {
   min-height: 100vh;
+  padding: 7rem 0 7rem;
 }
 
-.projetos .section-title {
+.projetos .titulo {
   text-align: center;
   padding: 60px 0;
   font-size: var(--fonte-gigante);

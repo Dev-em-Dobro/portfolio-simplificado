@@ -1,17 +1,17 @@
-.header .menu {
+.cabecalho .menu {
   display: none;
   width: 60px;
   height: 60px;
   align-self: flex-end;
 }
 
-.header nav label {
+.cabecalho nav label {
   display: flex;
   flex-direction: column;
   cursor: pointer;
 }
 
-.header .hamburguer {
+.cabecalho .hamburguer {
   position: relative;
   display: block;
   background-color: var(--cor-branca);
@@ -22,8 +22,8 @@
   transition: 0.5s ease-in-out;
 }
 
-.header .hamburguer:before,
-.header .hamburguer:after {
+.cabecalho .hamburguer:before,
+.cabecalho .hamburguer:after {
   background-color: var(--cor-branca);
   content: "";
   display: block;
@@ -33,28 +33,28 @@
   transition: 0.2s ease-in-out;
 }
 
-.header .hamburguer:before {
+.cabecalho .hamburguer:before {
   top: -10px;
 }
 
-.header .hamburguer:after {
+.cabecalho .hamburguer:after {
   bottom: -10px;
 }
 
-.header input {
+.cabecalho input {
   display: none;
 }
 
-.header input:checked~label .hamburguer {
+.cabecalho input:checked~label .hamburguer {
   transform: rotate(45deg);
 }
 
-.header input:checked~label .hamburguer:before {
+.cabecalho input:checked~label .hamburguer:before {
   transform: rotate(90deg);
   top: 0;
 }
 
-.header input:checked~label .hamburguer:after {
+.cabecalho input:checked~label .hamburguer:after {
   transform: rotate(90deg);
   bottom: 0;
 }
