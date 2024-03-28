@@ -5,7 +5,7 @@
   align-self: flex-end;
 }
 
-.cabecalho nav label {
+.cabecalho .menu label {
   display: flex;
   flex-direction: column;
   cursor: pointer;
