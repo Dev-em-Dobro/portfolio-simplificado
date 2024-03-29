@@ -41,11 +41,11 @@ body {
   border: 2px solid var(--cor-fundo-roxo-claro);
 }
 
-.cabecalho nav ul {
+.cabecalho .menu ul {
   display: flex;
 }
 
-.cabecalho nav li a {
+.cabecalho .menu li a {
   text-transform: capitalize;
   color: var(--cor-branca);
   font-size: 2rem;
@@ -57,7 +57,7 @@ body {
   user-select: none;
 }
 
-.cabecalho nav ul li a:hover {
+.cabecalho .menu ul li a:hover {
   background: var(--cor-fundo-roxo-claro);
   color: var(--cor-branca);
 }
