@@ -93,10 +93,10 @@
     place-items: center;
   }
 
-  .projetos .container-projetos .projeto {
+  /* .projetos .container-projetos .projeto {
     width: 300px;
     height: 80%;
-  }
+  } */
 
   .projetos .titulo {
     font-size: var(--fonte-extra-grande);
