@@ -86,7 +86,7 @@
   }
 
   .projetos {
-    padding: 0;
+    padding: 30px;
   }
 
   .projetos .container-projetos {
@@ -94,7 +94,7 @@
   }
 
   .projetos .container-projetos .projeto { 
-    height: 400px;
+    height: 500px;
     overflow: hidden;
   }
 
