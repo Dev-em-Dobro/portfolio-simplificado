@@ -1,4 +1,7 @@
 @media(max-width: 1280px) {
+  .home {
+    gap: 0;
+  }
 
   .home .informacoes {
     max-width: 100%;
